@@ -13,6 +13,11 @@
 	opacity: 1;
 }
 
+.back {
+	-webkit-transform: rotateY(-180deg);
+	-webkit-backface-visibility: hidden;
+}
+
 .portfolio-item {
 	position: relative;
 	-webkit-perspective: 800;
@@ -31,9 +36,4 @@
 	transition: 3s;
 	-webkit-transform: rotateY(0deg);
 	-webkit-transform-style: preserve-3d;
-}
-
-.back {
-	-webkit-transform: rotateY(-180deg);
-	-webkit-backface-visibility: hidden;
 }
